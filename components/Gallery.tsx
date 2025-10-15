@@ -20,29 +20,19 @@ const Gallery = () => {
       id: 2,
       titleKey: "gallery.item2.title",
       categoryKey: "gallery.item2.category",
-      src: "/images/photo1.jpeg",
+      src: "/images/photo2.jpeg",
     },
     {
       id: 3,
       titleKey: "gallery.item3.title",
       categoryKey: "gallery.item3.category",
-      src: "/images/photo1.jpeg",
+      src: "/images/photo3.jpeg",
     },
     {
       id: 4,
       titleKey: "gallery.item4.title",
       categoryKey: "gallery.item4.category",
-      src: "/images/photo1.jpeg",
-    },
-    {
-      id: 5,
-      titleKey: "gallery.item5.title",
-      categoryKey: "gallery.item5.category",
-    },
-    {
-      id: 6,
-      titleKey: "gallery.item6.title",
-      categoryKey: "gallery.item6.category",
+      src: "/images/photo4.jpeg",
     },
   ];
 
