@@ -3,7 +3,7 @@
 export const homeTranslations = {
   // Hero Section
   "home.hero.title": {
-    mr: "आपल्या गावाचा विकास, आमची जबाबदारी",
+    mr: "आपल्या गावाचा विकास, आपली जबाबदारी",
     en: "Development of Our Village, Our Responsibility",
   },
   "home.hero.subtitle": {
@@ -82,6 +82,10 @@ export const homeTranslations = {
     mr: "ग्रामसेवक",
     en: "Gram Sevak",
   },
+  "officials.moreDetails": {
+    mr: "अधिक तपशीलांसाठी येथे क्लिक करा",
+    en: "Click here for More details",
+  },
 
   // Quick Stats
   "home.stats.population": {
@@ -103,7 +107,7 @@ export const homeTranslations = {
 
   // Hero Slides - Matching Component Keys
   "hero.title1": {
-    mr: "आपल्या गावाचा विकास, आमची जबाबदारी",
+    mr: "आपल्या गावाचा विकास, आपली जबाबदारी",
     en: "Development of Our Village, Our Responsibility",
   },
   "hero.subtitle1": {
@@ -137,7 +141,7 @@ export const homeTranslations = {
 
   // Hero Slides - Alternative naming
   "hero.slide1.title": {
-    mr: "आपल्या गावाचा विकास, आमची जबाबदारी",
+    mr: "आपल्या गावाचा विकास, आपली जबाबदारी",
     en: "Development of Our Village, Our Responsibility",
   },
   "hero.slide1.description": {

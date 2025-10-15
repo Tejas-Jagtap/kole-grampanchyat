@@ -97,7 +97,7 @@ const Officials = () => {
                 "official.positionKey"
               </p>
               <span className="inline-block bg-[#0A1931] hover:bg-[#142b4a] text-white font-semibold px-8 py-4 rounded-lg transition-colors duration-200">
-                Click here <span className="inner">More details</span>
+                {t("officials.moreDetails")}
               </span>
             </Link>
           </div>
