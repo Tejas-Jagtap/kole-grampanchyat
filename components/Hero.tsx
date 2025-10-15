@@ -14,19 +14,19 @@ const Hero = () => {
       id: 1,
       titleKey: "hero.title3",
       descriptionKey: "hero.subtitle3",
-      image: "/images/hero1.jpg",
+      image: "/images/photo3.jpeg",
     },
     {
       id: 2,
       titleKey: "hero.title1",
       descriptionKey: "hero.subtitle1",
-      image: "/images/hero1.jpg",
+      image: "/images/photo3.jpeg",
     },
     {
       id: 3,
       titleKey: "hero.title2",
       descriptionKey: "hero.subtitle2",
-      image: "/images/hero1.jpg",
+      image: "/images/photo3.jpeg",
     },
   ];
 
