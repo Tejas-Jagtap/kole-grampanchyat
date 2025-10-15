@@ -77,33 +77,28 @@ const Officials = () => {
                 </p>
               </div>
             ))}
-            <Link href="/about/administration">
-              <div
-                key={"official.id"}
-                className="text-center group hover:shadow-xl transition-shadow duration-200 p-6 rounded-lg border border-gray-200 backdrop-blur-sm"
-              >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-government-orange to-government-green p-1 blur">
-                  <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
-                    <FaUserTie className="text-5xl text-gray-400" />
-                  </div>
+            <Link
+              href="/about/administration"
+              className="text-center group hover:shadow-xl transition-shadow duration-200 p-6 rounded-lg border border-gray-200 backdrop-blur-sm block"
+            >
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-government-orange to-government-green p-1 blur">
+                <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
+                  <FaUserTie className="text-5xl text-gray-400" />
                 </div>
-                <h3 className="font-bold text-2xl text-government-blue mb-2 blur">
-                  {"official.MarathiName"}
-                </h3>
-                <h3 className="font-bold text-2xl text-government-blue mb-2 blur">
-                  {"official.EnglishName"}
-                </h3>
-                <p className="text-gray-600 text-lg blur">{"official.phone"}</p>
-                <p className="text-government-orange font-semibold text-lg mt-2 blur">
-                  "official.positionKey"
-                </p>
-                <a
-                  href="/about/administration"
-                  className="inline-block bg-[#0A1931] hover:bg-[#142b4a] text-white font-semibold px-8 py-4 rounded-lg transition-colors duration-200"
-                >
-                  Click here <span className="inner">More details</span>
-                </a>
               </div>
+              <h3 className="font-bold text-2xl text-government-blue mb-2 blur">
+                {"official.MarathiName"}
+              </h3>
+              <h3 className="font-bold text-2xl text-government-blue mb-2 blur">
+                {"official.EnglishName"}
+              </h3>
+              <p className="text-gray-600 text-lg blur">{"official.phone"}</p>
+              <p className="text-government-orange font-semibold text-lg mt-2 blur">
+                "official.positionKey"
+              </p>
+              <span className="inline-block bg-[#0A1931] hover:bg-[#142b4a] text-white font-semibold px-8 py-4 rounded-lg transition-colors duration-200">
+                Click here <span className="inner">More details</span>
+              </span>
             </Link>
           </div>
         </div>
