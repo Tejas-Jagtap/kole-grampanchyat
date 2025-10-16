@@ -90,7 +90,7 @@ export default function DepartmentsPage() {
                         {dept.name}
                       </h3>
                     </div>
-                    <div className="p-6">
+                    <div className="p-3 ml-5">
                       <p className="text-gray-700 text-sm sm:text-base">
                         {dept.description}
                       </p>
@@ -104,7 +104,7 @@ export default function DepartmentsPage() {
                         <FaArrowRight />
                       </div> */}
                     </div>
-                    <div className="p-6">
+                    <div className="p-3 ml-5">
                       <p className="text-gray-700 text-lg sm:text-base">
                         {t("dept.departmentHeadtitle")} - {dept.head}
                       </p>
