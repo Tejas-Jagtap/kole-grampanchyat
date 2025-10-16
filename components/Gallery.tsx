@@ -12,25 +12,25 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      titleKey: "gallery.item1.title",
+      titleKey: "gallery.office",
       categoryKey: "gallery.item1.category",
       src: "/images/photo1.jpeg",
     },
     {
       id: 2,
-      titleKey: "gallery.item2.title",
+      titleKey: "gallery.GrampanchayatHall",
       categoryKey: "gallery.item2.category",
       src: "/images/photo2.jpeg",
     },
     {
       id: 3,
-      titleKey: "gallery.item3.title",
+      titleKey: "gallery.office",
       categoryKey: "gallery.item3.category",
       src: "/images/photo3.jpeg",
     },
     {
       id: 4,
-      titleKey: "gallery.item4.title",
+      titleKey: "gallery.Shivaji_MaharajFestival",
       categoryKey: "gallery.item4.category",
       src: "/images/photo4.jpeg",
     },
@@ -68,9 +68,9 @@ const Gallery = () => {
                   <h3 className="font-semibold text-2xl text-government-blue mb-1">
                     {t(image.titleKey)}
                   </h3>
-                  <p className="text-lg text-gray-600">
+                  {/* <p className="text-lg text-gray-600">
                     {t(image.categoryKey)}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
